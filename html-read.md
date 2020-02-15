@@ -73,9 +73,104 @@ between their opening and closing tags.
 
    
 #### Attributes Tell Us More About Elements :
+
        Attributes provide additional information about the contents of an element.
                    <p lang="en-us">Paragraph in English</p>
                    
+## HTML5 
+
+In HTML5, web page authors do not need to close all tags, and new elements and attributes will
+be introduced. At the time of writing, the HTML5 specification had not been completed, but
+the major browser makers had started to implement many of the new features, and web page
+authors were rapidly adopting the new markup. Despite the fact that HTML5
+is not yet completed, you can safely take advantage of the new features of the language as
+long as you endeavour to ensure that users with older browsers will be able to view your pages
+(even though some of the extra features will not be visible to them).
+
+#### DOCTYPEs
+
+- Because there have been several versions of HTML, each web page should begin with a
+DOCTYPE declaration to tell a browser which version of HTML the page is using
+                 
+                   <!DOCTYPE html>
+                   use in HTML5
+                   
+#### Comments in HTML
+- If you want to add a comment to your code that will not be
+visible in the user's browser, you can add the text between these characters:
+
+                    <!-- comment goes here -->
+         
+#### ID Attribute
+- Every HTML element can carry the id attribute. It is used to
+uniquely identify that element from other elements on the page
+
+                    <p id="pullquote"> </p>
+                     
+#### Class Attribute
+- Every HTML element can also carry a class attribute. Sometimes, rather than uniquely
+identifying one element within a document, you will want a way to identify several elements
+as being different from the other elements on the page. 
+
+                   <p class="important"> </p>
+
+#### Block Elements
+- Some elements will always appear to start on a new line in
+the browser window. These are known as block level elements.
+- Examples of block elements are
+
+                    <h1>, <p>, <ul>, and <li>.
+                    
+#### Inline Elements
+- Some elements will always appear to continue on the same line as their neighbouring
+elements. These are known as inline elements
+- Examples of inline elements are
+                    
+                    <a>, <b>, <em>, and <img>.
+                    
+#### Grouping Text & Elements In a Block
+                   
+                   <div> </div>
+
+- The element allows you to group a set of elements together in one block-level box.
+
+#### Grouping Text & Elements Inline
+
+                  <span> </span>
+
+- The span element acts like an inline equivalent of the div
+element. It is used to either:
+
+1. Contain a section of text where there is no other suitable
+element to differentiate it from its surrounding text
+2. Contain a number of inline elements The most common reason why
+people use span elements is so that they can control the
+appearance of the content of these elements using CSS.
+
+#### IFrames
+
+                  <iframe> </iframe>
+                  
+- An iframe is like a little window that has been cut into your
+page — and in that window you can see another page. The term
+iframe is an abbreviation of inline frame
+An iframe is created using the iframe element. There are a
+few attributes that you will need to know to use it:
+- src
+The src attribute specifies the URL of the page to show in the frame.
+- height
+The height attribute specifies the height of the iframe in pixels.
+- width
+The width attribute specifies the width of the iframe in pixels.
+
+#### Information About Your Pages
+
+                  <meta> 
+                  
+- The meta element lives inside the head element and contains information about that
+web page. It is not visible to users but fulfills a number of purposes such as telling 
+search engines about your page, who created it, and whether or not it is time sensitive                  
+
 
 
 
