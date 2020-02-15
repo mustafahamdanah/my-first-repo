@@ -256,10 +256,11 @@ allows you to turn an entire block into a link.
 
 # Chapte 18 : process and design
 
-### How to approach building a site Understanding your audience and their needs
-### How to present information visitors want to see
+ How to approach building a site Understanding your audience and their needs
+ How to present information visitors want to see
 
 ## Who is the Site For?
+
 ### Target Audience: individuals
 - What is the age range of your target audience?
 - Will your site appeal to more women or men? What is the mix?
@@ -283,35 +284,35 @@ need to achieve a specific goal?
 - Are they already familiar with the service or product that you offer or do they need to
 be introduced to it?
 
-## What Your Visitors are Trying to Achieve
+### What Your Visitors are Trying to Achieve
 - It is unlikely that you will be able to list every reason why someone visits your site but you
 are looking for key tasks and motivations. This information can help guide your site designs.
 
-## What Information Your Visitors Need
+### What Information Your Visitors Need
 - You know who is coming to your site and why they are coming, so now you need to work out
 what information they need in order to achieve their goals quickly and effectively
 
-## How Often People Will Visit Your Site
+### How Often People Will Visit Your Site
 - Some sites benefit from being updated more frequently than others. Some information (such
 as news) may be constantly changing, while other content remains relatively static.
 
-## Site Maps
+### Site Maps
 - Now that you know what needs to appear on your site, you can start to organize the
 information into sections or pages.
 
-## WireFrames
+### WireFrames
 - A wireframe is a simple sketch of the key information that needs to go on each page of a
 site. It shows the hierarchy of the information and how much space it might require.
 
-## Visual hierarchy
+### Visual hierarchy
 - Most web users do not read entire pages. Rather, they skim to find information. You can use contrast to create a visual hierarchy that gets across your key message and helps users find what they are looking for.
 
-## Designing Navigation
+### Designing Navigation
 - Site navigation not only helps people find where they want to go, but also
 helps them understand what your site is about and how it is organized.
 Good navigation tends to follow these principles...
 
-## grouping and Similarity
+### grouping and Similarity
 When making sense of a design, we tend to organize visual elements into groups. Grouping related pieces of information together can make a design easier to comprehend. Here are some ways this can be achieved.
 - Proximity
 - Closure
